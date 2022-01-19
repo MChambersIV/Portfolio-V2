@@ -1,0 +1,73 @@
+body {
+    color: wheat;
+    background-color: rgb(46, 44, 61);
+}
+h1 {
+    font-size: 55px;
+    text-align: left;
+    
+}
+
+h2 {
+    font-size: 40px;
+    text-align: left;
+    font-weight: 400;
+    padding: 20px 20px;
+}
+
+.nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    background-color: wheat;
+   
+    
+
+
+}
+.navchild li {
+    z-index: 100;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 540;
+    background-color: wheat;
+    color: rgb(46, 44, 61);
+    margin: 10px 0 10px 10px;
+    border-right: rgb(46, 44, 61), 3px;
+}
+
+a {
+    text-decoration: none;
+    background-color: wheat;
+    color: rgb(46, 44, 61);
+    margin: 0;
+    border: 0;
+}
+
+img {
+    display: flex;
+    border: 20px;
+    padding: 20px;
+    flex-shrink: 1;
+
+}
+
+img:hover {
+    transition: .3s ease;
+    transform: scale(1.15);
+}
+
+.land {
+    font-size: 40px;
+    text-align: left;
+    font-weight: 400;
+    padding: 10px 0px 0px 20px;
+
+}
+
+.abme {
+    display: flex;
+    flex: wrap;
+    padding: 0px 30px 30px 30px;
+    width: 30%;
+}
