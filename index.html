@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel= "stylesheet" href="./css/reset.css"/>
-    <link rel= "stylesheet" href=./css/style.css"/>
+    <link rel= "stylesheet" href="./css/style.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
     <title>Chambers' Portfolio</title>
 </head>
-<body>
+<body class="bg-dark text-light">
     <header>
-        <h1>Chambers' Portfolio</h1>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <h1 class="title">Chambers' Portfolio</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-top border-bottom">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Contact Me</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,21 +25,10 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="https://github.com/MChambersIV">Github</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Project 1</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Github</a></li>
-                      <li><a class="dropdown-item" href="#">LinkedIn</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Resume</a></li>
-                    </ul>
+                    <a class="nav-link" href="https://www.linkedin.com/in/millard-chambers/">LinkedIn</a>
                   </li>
                 </ul>
               </div>
@@ -49,46 +41,56 @@
         <section>
             <article id="about">
                 <h2>About Me</h2>
-                <p class="abme">My name is Millard Chambers and I am an apsiring Software Developer.</p>
+                <p class="abme">My name is Millard Chambers and I'm an apsiring Software Developer.</p>
                 <p class="abme">I grew up all around the San Francisco Bay Area, exposing me to cultures and ways of life as varied as the people that people that make the Bay Area what it is.</p>
                 <p class="abme">Of course the Bay Area isn't just a bountiful cultural center, or perhaps because it is so, it's home to the foremost high technology hub of the world.</p>
                 <p class="abme">Watching the rapid pace of technology's advancement and how it improve the lives of people the world over because of talented and dedicated individuals inspired me journey down this path help leave it better than I found it.</p>
                 <p class="abme">For you consideration, I have included a few of my works to showcase some of the skills I've honed that would make me a valuable member of your team.</p>
             </article>
              <div class="card bg-dark text-dark">
-                <img src="./images/p1.jpg" class="card-img" alt="Image of Landscape" style="width:600px;height:300px;">
-                <div class="card-img-overlay">
+                
+               
+              <div class="card mb-3 bg-dark text-light">
+                
+                <div class="card-body border-top">
                   <h5 class="card-title">Sound Lane</h5>
                   <p class="card-text">Sound Lane is a Musical Artist information aggregator that allows its user to look up any musical Artist and find relevant information about them.</p>
+                  <p class="card-text">Sound Lane's repository on <a href="https://github.com/MChambersIV/Sound-Lane">Github</a>.</p>
                 </div>
-              </div>
+                <img src="./images/p1.png" class="card-img-top border border-2" alt="Image of Landscape" style="width:500px;height:300px;">
+            </div>
+            <div class="card mb-3 bg-dark text-light">
+                
+                <div class="card-body border-top">
+                    <h5 class="card-title">Accurate Weather</h5>
+                    <p class="card-text">This is a weather dashboard using the Open Weather API to find real time and forecasted weather by searching for a city's name.</p>
+                    <p class="card-text">Accurate Weather's repository on <a href="https://github.com/MChambersIV/weather-dashboard">Github</a>.</p>
+                </div>
+                <img src="./images/p2.png" class="card-img-top border border-2" alt="Image of Landscape" style="width:500px;height:300px;">
+            </div>
+            <div class="card mb-3 bg-dark text-light">
               
-              <div class="card bg-dark text-white">
-                <img src="./images/p2.jpg" class="card-img" alt="Image of Landscape" style="width:600px;height:300px;">
-                <div class="card-img-overlay">
-                  <h5 class="card-title">Code Quiz</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
+              <div class="card-body border-top">
+                    <h5 class="card-title">Work Day Scheduler</h5>
+                    <p class="card-text">This is a day planner, it allows the user to enter task to a form with a corresponding time of day and then save it. Once, saved  the task will persist upon page reload.</p>
+                    <p class="card-text">Work Day Scheduler's repository on <a href="https://github.com/MChambersIV/daily-planner-mc">Github</a>.</p>
               </div>
-              <div class="card bg-dark text-white">
-                <img src="./images/p3.jpg" class="card-img" alt="Image of Landscape" style="width:600px;height:300px;">
-                <div class="card-img-overlay">
-                  <h5 class="card-title">Day Planner</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-              <div class="card bg-dark text-white">
-                <img src="./images/p4.jpg" class="card-img" alt="Image of Landscape" style="width:600px;height:300px;">
-                <div class="card-img-overlay">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-
-           
-            
+              <img src="./images/p3.png" class="card-img-top border border-2" alt="Image of Landscape" style="width:500px;height:300px;">
+                
+            </div>
         </section>
-    </main>
+       
+        <article class="border-top" id="about">
+            <h2>Contact Me</h2>
+            <p class="abme">Email: notmyrealemail@gmail.com</p>
+            <p class="abme">Phone Number: (000) 000-0000</p>
+            <p class="abme">Resume PDF: <a href="https://drive.google.com/file/d/1zWUbt27l-IwGQGAYzvlKaHQCopJl1Und/view?usp=sharing">Google Drive Link</a></p>
+        </article>
+    
+    
+    
+      </main>
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <footer></footer>
     
